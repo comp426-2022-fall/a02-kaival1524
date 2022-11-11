@@ -1,0 +1,28 @@
+{
+  "name": "a02-kaival1524",
+  "version": "1.0.0",
+  "description": "setup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-kaival1524.git"
+  },
+  "author": "kaival1524",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-kaival1524/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-kaival1524#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.38",
+    "node-fetch": "^3.3.0"
+  }
+}
