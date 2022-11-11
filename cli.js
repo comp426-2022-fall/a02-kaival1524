@@ -22,6 +22,7 @@ let latitude = args.n || (args.s * -1);
 let longitude = args.e || (args.w * -1);
 
 let timezone = moment.tz.guess();
+
 if (args.z) {
     timezone = args.z;
 }
@@ -33,6 +34,7 @@ const data = await response.json();
 
 if (args.j) {
     console.log(data);
+    process.exit(0);
 }
 
 const days = args.d 
